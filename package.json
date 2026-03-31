@@ -3,11 +3,13 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "main": "server.js",
   "scripts": {
-    "dev": "vite --port=3000 --host=0.0.0.0",
+    "dev": "node server.js",
     "build": "vite build",
     "preview": "vite preview",
-    "clean": "rm -rf dist"
+    "clean": "rm -rf dist",
+    "start": "node server.js"
   },
   "dependencies": {
     "@google/genai": "^1.29.0",
